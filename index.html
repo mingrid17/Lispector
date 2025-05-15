@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html lang="PT-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Lispector café e book store </title>
+      <link rel = "stylesheet" type="text/css" href="style.css">
+      <link rel = "stylesheet" type="text/css" href="Lispector.css">
+  </head>
+ 
+  <body>
+    <header>
+        <img src="img/logo xicara.png" alt="Logo Lispector" id="xic">
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav id="navMenu">
+        <div><button>Quem Somos</button></div>
+        <div><button>Localização</button></div>
+        <div>><button>Redes Sociais</button></div>
+        <div><a href="log/login.html"><button>Estante Virtual</button></a></div>
+      </nav>
+    </header>
+ 
+    <div class="mobile-menu">
+     <a href="#">Quem somos</a>
+     <a href="#">Localização</a>
+     <a href="#">Redes Sociais</a>
+     <a href="login.html">Estante Virtual</a>
+    </div>
+ 
+    <input type="checkbox" id="menu-toggle">
+    <label for = "menu-toggle" class="hamburguer">☰</label>
+ 
+    <main>
+      <h2>Um refúgio para amantes de livros e café</h2>
+      <p>Somos uma livraria e cafeteria, um lugar confortável e calmo, perfeito para colocar suas leituras em dia e ainda saborear um cafezinho delicioso.</p>
+ 
+      <img src="img/local lispector.png" alt="Local Lispector">
+ 
+      <h2>Mais do que uma loja, uma experiência</h2>
+      <p>Esta livraria e cafeteria foi criada com o intuito de tornar a experiência dos nossos consumidores mais atrativa, unindo literatura e um ambiente especial para relaxar, ler e curtir uma bebida quentinha.</p>
+ 
+      <h2>Venha nos visitar</h2>
+      <p>Estamos localizados na Rua Coronel Alexanzito, 819, em Aracati - CE. Temos certeza de que você vai se encantar com o ambiente!</p> <br>
+ 
+      <h3>Nos siga nas redes sociais: <br> <strong>@lispectorcafeebookstore</strong></h3>
+    </main>
+ 
+    <footer>
+      <p> Obrigad@ por visitar nosso site! Te esperamos na nossa loja :p  </p>
+    </footer>
+ 
+    <script>
+      function toggleMenu() {
+          const nav = document.getElementById('navMenu');
+          nav.classList.toggle('active')
+      }
+    </script>
+
+  </body>
+  </html>
