@@ -3,19 +3,28 @@
     padding: 0%;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
     background-color:  rgb(142, 104, 70);
-    position: absolute;
-    top:45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-.caixa{
+#container{
+    max-width: 900px;
+}
+.caixa1{
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding:15px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 400px;
+    height: 420px;
+
+}
+img{
     width: 400px;
     height: 420px;
 }
