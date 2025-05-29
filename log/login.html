@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  type="text/css" href="login.css">
-    <title>Login|Lispector Café & Bookstore</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Lispector Café e Bookstore</title>
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="container">
-        <div class="login-box">
-            <h2> BEm vindo de volta!</h2>
-            <p class="subtitle"> entre na sua estante virtual</p>
+  <header>
+    <img src="../img/logo xicara.png" alt="Logo Lispector" id="xic">
+    <h1>Estante Virtual</h1>
+  </header>
 
-            <form>
-                <label for="email">Email</label>
-                <input type="email" id="email">
-                
-                <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="********" required>
+  <main class="login-container">
+    <h2>Bem-vindo de volta!</h2>
+    <p>Acesse sua estante virtual</p>
+    
+    <form class="login-form" action="#" method="post">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
 
-                <button type="submit">Entrar</button>
-            </form>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
 
-            <p class="register-link">
-                Não tem uma conta? <a href="#">Cadastre-se</a>
-            </p>
-        </div>
-    </div>
+      <button type="submit">Entrar</button>
+    </form>
 
+    <p class="link-voltar"><a href="../index.html">← Voltar para o site</a></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Lispector Café e Bookstore</p>
+  </footer>
 </body>
 </html>
