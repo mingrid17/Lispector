@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 .login-container {
-  width: 300px;
+  width: 290px;
   height: 434px;
   padding: 2rem;
   background-color: #fdf2e9;
@@ -93,6 +93,15 @@ p{
 }
 button{
   margin-top: 1rem;
+}
+
+.link-cadastro{
+  margin-top: 1rem;
+}
+
+.link-cadastro a {
+  text-decoration: none;
+  color: #a95843;
 }
 
 
