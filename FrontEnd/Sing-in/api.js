@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cadastroForm.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      const nome = document.getElementById('nome').value.trim();
+      const nome = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
       const senha = document.getElementById('senha').value.trim();
 
