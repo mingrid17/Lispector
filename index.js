@@ -4,7 +4,7 @@ const db = require('./database/conn');
 const app = express();
 const PORT = 3000;
 
-app.use(cors());
+app.use(cors());43
 app.use(express.json());
 app.post('/register', (req, res) => {
   const { name, email, password } = req.body;
