@@ -72,7 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = await res.json();
 
         if (res.ok) {
-          // Salva dados retornados no localStorage
           localStorage.setItem('usuario', JSON.stringify(data));
 
           alert('Login realizado com sucesso!');
