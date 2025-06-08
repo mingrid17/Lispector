@@ -1,0 +1,22 @@
+-- Acessar o Mysql
+mysql -u root -p
+
+-- Criação do banco de dados
+CREATE DATABASE lispectordb;
+
+-- Usar o banco de dados criado
+USE lispectordb;
+
+-- Criação da tabela de usuários
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL
+);
+
+--Verificar a Criação da tabela
+DESC users;
+
+-- Ver os Usuários Cadastrados
+SELECT * FROM users;
